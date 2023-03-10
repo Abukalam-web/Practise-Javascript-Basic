@@ -145,3 +145,150 @@ i{
     transform: scale(1.1);
 }
 /* first section completed */
+/* second section start */
+.section-02{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#AA076B,#61045F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box-section-02{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(#DD2476,#FF512F);
+    position: relative;
+}
+.dot-box{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 20px;
+
+}
+
+.dot{
+    width: 10px ;
+    height: 10px;
+    border-radius: 50%;
+    background: #130f40;
+    margin:10px 5px;
+
+}
+
+@keyframes dot-line {
+    0%{
+       
+        background-color: red;
+    }
+    50%{
+       
+        background-color: #130f40;
+    }
+    100%{
+        
+        background-color: red;
+    }
+    
+}
+
+.dot1{
+        animation: dot-line;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 0s;
+
+}
+
+.dot2{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+
+}
+
+.dot3{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+}
+
+.dot4{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+
+}
+
+.dot5{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+}
+
+.dot6{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2.5s;
+
+}
+
+.dot7{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+
+}
+
+.dot8{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+
+}
+
+.dot9{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+
+}
+
+.dot10{
+    animation: dot-line;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+}
+.dot-box-1{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    
+}
