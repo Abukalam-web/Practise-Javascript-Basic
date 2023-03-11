@@ -332,3 +332,50 @@ i{
     color: #FF512F;
     font-family: 'Orbitron', sans-serif;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .clock-heading {
+        color: #e67e22;
+        font-size: 29px;
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        margin-top: -257px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    i{
+        font-size: 15px;
+    }
+    
+.number1, .number2, .result {
+    width: 80px;
+    height: 33px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #e67e22;
+    color: white;
+    overflow: auto;
+    font-size: 20px;
+    padding: 0 3px;
+}
+
+.oparetion-icon{
+    margin-left: 20px;
+}
+
+    .clock span {
+        font-size: 31px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+
+
+
+}
