@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -291,4 +294,41 @@ i{
     top: 150px;
     left: 20px;
     
+}
+
+
+
+.clock-box{
+    width: 80%;
+    height: 220px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 17px;
+    background: linear-gradient(#61045F,#DD2476);
+}
+
+.clock-heading{
+    color: #e67e22;
+    font-size: 38px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-top: -60px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.clock span{
+    
+    font-size: 90px;
+    letter-spacing: 4px;
+    font-weight: bold;
+
+}
+
+#MyClockDisplay{
+    color: #FF512F;
+    font-family: 'Orbitron', sans-serif;
 }
