@@ -86,5 +86,35 @@ function showTime(){
 
 showTime();
 
+var x = setInterval(function(){
+    
+
+var ramadanDate = new Date("mar 23, 2023").getTime();
+var currentTime = new Date().getTime();
+var timeDiff = ramadanDate - currentTime;
+
+var days = timeDiff/ (1000*24*60*60);
+var fDays = Math.floor(days);
 
 
+var Hours = Math.floor((timeDiff % (1000*60*60*24)) / (1000*60*60));
+
+
+var minutes = Math.floor((timeDiff % (1000*60*60)) / (1000*60));
+
+
+var seconds = Math.floor((timeDiff % (1000*60)) / (1000));
+
+fDays = (fDays <10) ? "0" + fDays : fDays;
+Hours = (Hours <10) ? "0" + Hours : Hours;
+minutes = (minutes <10) ? "0"+ minutes : minutes;
+seconds = (seconds <10) ? "0" +seconds : seconds;
+
+
+var result = fDays+" Days - " + Hours + " Hours - " + minutes+ " minutes - " + seconds+" Seconds"
+
+var displayTimer = document.getElementById("ramadan-time");
+
+displayTimer.innerHTML = result;
+
+},1000);
