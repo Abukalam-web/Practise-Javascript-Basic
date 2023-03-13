@@ -475,5 +475,48 @@ i{
 
 #mili{
     font-size: 45px;
-    letter-spacing: 6px;
+    letter-spacing: 6git px;
+}
+
+.section-04{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: #4158D0;
+    background-image: linear-gradient(224deg, #4158D0 0%, #C850C0 50%, #FFCC70 88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.my-course-box{
+    width: 90%;
+    height: 500px;
+    background-color: #4158D0;
+    background-image: linear-gradient(224deg, #4158D0 0%, #C850C0 50%, #FFCC70 88%);
+    box-shadow: 2px 2px 24px #30336b,-2px 2px 14px #AA076B,-2px -2px 14px #130f40,2px -2px 14px #c0392b;
+    border-radius: 30px;
+    
+}
+.course-title{
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-family: 'Orbitron', sans-serif;
+    padding: 20px ;
+
+}
+
+#display-course-time{
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: 'Orbitron', sans-serif;
 }

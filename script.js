@@ -137,3 +137,40 @@ miliRemaing.innerHTML = timeDiff;
 setInterval(remainingMlsec, 100);
 remainingMlsec();
 
+
+
+
+function  w3CourseTime(){
+    var startingDate = new Date("mar 12, 2023" ).getTime();
+
+    var  endingDate = new Date().getTime();
+
+    var timeDifference = startingDate + endingDate;
+
+   
+
+    var d1 = Math.floor(timeDifference / (1000*60*60*24));
+
+    var h1 = Math.floor((timeDifference % (1000*60*60*24)) / (60*60*1000));
+
+    var m1 = Math.floor((timeDifference % (1000*60*60)) / (60*1000));
+
+    var s1 = Math.floor((timeDifference % (1000*60)) / (1000));
+
+    h1 = (h1<10) ? "0" + h1 : h1;
+    d1 = (d1<10) ? "0" + d1 : d1;
+    m1 = (m1<10) ? "0" + m1 : m1;
+    s1 = (s1<10) ? "0" +s1 : s1;
+
+    var w3Display = d1 +" Days - " + h1 +" Hours - " + m1 +" Minutes - " +s1 + " Seconds " ;
+
+    var displayTimerW3 = document.getElementById("display-course-time");
+
+    displayTimerW3.innerHTML = w3Display;
+
+
+   setInterval(w3CourseTime,1000);
+
+}
+
+w3CourseTime();
