@@ -115,6 +115,25 @@ var result = fDays+" Days - " + Hours + " Hours - " + minutes+ " minutes - " + s
 
 var displayTimer = document.getElementById("ramadan-time");
 
+
+
+
+
 displayTimer.innerHTML = result;
 
 },1000);
+
+
+
+function remainingMlsec (){
+    var ramadanDate = new Date("mar 23, 2023").getTime();
+var currentTime = new Date().getTime();
+var timeDiff = ramadanDate - currentTime;
+var miliRemaing = document.getElementById("mili");
+
+miliRemaing.innerHTML = timeDiff;
+
+}
+setInterval(remainingMlsec, 100);
+remainingMlsec();
+
